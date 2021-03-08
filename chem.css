@@ -1,0 +1,220 @@
+body {
+  position: fixed;
+  background-color: #000000;
+}
+#content {
+  background-image: url('');
+  background-size: 350px;
+  display: inline-block;
+  float: right;
+  border: 2px solid #ffffff;
+  height: 160px;
+  width: 350px;
+  text-align: center;
+  padding: 0px;
+  position: absolute;
+  right: 50%;
+  bottom: 73%;
+
+}
+#content p {
+  padding-top: 66px;
+  margin: 0;
+  font-family: monospace;
+  color: #ffffff;
+}
+.card {
+  pointer-events: auto;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  background-color: #f4511e;
+  text-align: center;
+  position: relative;
+  border: 2px solid #000000;
+}
+.element {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  margin: -15px 0px 0px -15px;
+  top: 70%;
+  left: 70%;
+  padding: 0px;
+}
+.tri {
+  position: fixed;
+  height: 0;
+  width: 0;
+  float: left;
+  border-left: 40px solid #000000;
+  border-bottom: 40px solid #f4511e;
+  z-index: 0;
+}
+.card p {
+  color: #ffffff;
+  position: relative;
+  text-align: left;
+  margin: 0 0 0 5px;
+  display: inline-block;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 11px;
+  float: left;
+  z-index: 1;
+}
+.element h3 {
+  font-size: 22px;
+  margin: 0;
+  font-family: monospace;
+  font-weight: bold;
+}
+.alkalimetals {
+  background-color: #ffeb3b;
+}
+.alkalimetals .tri{
+  border-bottom: 40px solid #ffeb3b;
+}
+.alkaliearthmetals {
+  background-color: #ffa000;
+}
+.alkaliearthmetals .tri{
+  border-bottom: 40px solid #ffa000;
+}
+.transition {
+  background-color: #00bcd4;
+}
+.transition .tri {
+  border-bottom: 40px solid #00bcd4;
+}
+.amphoteric {
+  background-color: #8bc34a;
+}
+.amphoteric .tri {
+  border-bottom: 40px solid #8bc34a;
+}
+.metaloids {
+  background-color: #4ce452;
+}
+.metaloids .tri {
+  border-bottom: 40px solid #4ce452;
+}
+.nonmetals {
+  background-color: #ba68c8;
+}
+.nonmetals .tri {
+  border-bottom: 40px solid #ba68c8;
+}
+.nobel {
+  background-color: #f41ed0;
+}
+.nobel .tri {
+  border-bottom: 40px solid #f41ed0;
+}
+#invisible {
+  height: 30px;
+  visibility: hidden;
+  left: 110px;
+}
+#aluminium {
+  margin-left: 530px;
+}
+#helium {
+  margin-left: 848px;
+}
+#boron {
+  margin-left: 530px;
+}
+.lanthanoid{
+  background-color: #1ef4d6;
+}
+.lanthanoid .tri{
+  border-bottom: 40px solid #1ef4d6;
+}
+#lanthanoids p {
+  color: #000000;
+  font-weight: bold;
+}
+.actinoid{
+  background-color: #757ff7;
+}
+.actinoid .tri {
+  border-bottom: 40px solid #757ff7;
+}
+#actinoids p {
+  color: #000000;
+  font-weight: bold;
+}
+#lanthanum {
+  margin-left: 150px;
+}
+#actinium {
+  margin-left: 150px;
+}
+#refer {
+  height: 395px;
+  width: 180px;
+  float: right;
+  background-color: #000000;
+  text-align: left;
+  border: 0px;
+  right: 0px;
+
+}
+#refer p {
+  color: #ffffff;
+  float: none;
+  font-size: 15px;
+  top: 19%;
+  left: 12%;
+}
+.symbol {
+  height: 15px;
+  width: 15px;
+  top: 20%;
+  left: 10%;
+}
+#mainHeading{
+  position: fixed;
+  height: 100vh;
+  width: 100px;
+  float: left;
+  background-color: #000000;
+  border: 2px solid #4dd0e1;
+  margin-right: 12px;
+  text-align: left;
+  border-top: 0px;
+  left: 0px;
+  top: 0px;
+}
+#positioning {
+  height: 100vh;
+  width: 100px;
+  float: left;
+  margin-right: 12px;
+  background-color: red;
+  text-align: left;
+  border: 0px;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+}
+#mainHeading h1 {
+  font-size: 50px;
+  font-family: monospace;
+  font-weight: bolder;
+  padding-left: 35%;
+  color: #4dd0e1;
+}
+#copyright {
+  color: #ffffff;
+  font-family: monospace;
+  font-weight: lighter;
+  font-style: italic;
+  position: fixed;
+  left: 50%;
+  bottom: 1%;
+}
+.radioactive {
+  border: 2px solid #f4511e;
+}
